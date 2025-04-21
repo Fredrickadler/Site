@@ -1,0 +1,57 @@
+```html
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>سایت خرید و فروش ارز دیجیتال</title>
+    <style>
+        body {
+            background-color: #2e2e2e; /* مشکی مایل خاکستری */
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        .button {
+            background-color: #007bff; /* رنگ آبی */
+            color: white;
+            border: none;
+            padding: 15px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 20px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .button:hover {
+            background-color: #0056b3; /* رنگ آبی تیره در حالت hover */
+        }
+    </style>
+</head>
+<body>
+    <h1>خرید و فروش ارز دیجیتال</h1>
+    
+    <button class="button" onclick="buyCurrency()">خرید ارز</button>
+    <button class="button" onclick="sellCurrency()">فروش ارز</button>
+
+    <script>
+        function buyCurrency() {
+            alert("شما ارز را خریدید!");
+            // منطق خرید ارز می‌تواند در اینجا اضافه شود.
+        }
+
+        function sellCurrency() {
+            alert("شما ارز را فروختید!");
+            // منطق فروش ارز می‌تواند در اینجا اضافه شود.
+        }
+    </script>
+</body>
+</html>
+```
